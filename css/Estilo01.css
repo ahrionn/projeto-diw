@@ -1,0 +1,77 @@
+/* Seleciona todos os elementos h1 da página html e aplica as propriedades */
+body{
+	background-color: black;
+}
+
+h1 {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	font-family: serif, Calibri, Comic Sans MS;
+	font-size: 70px;
+	font-style: oblique;
+	font-weight: bold;
+	color: darkcyan;
+	font-variant: small-caps;
+	border-width: 20px ;
+	border-style: double;
+	border-color: whitesmoke;
+	width: 470px;
+}
+
+	/* O navegador tenta usar a primeira opção de fonte, 
+	se o usuário não tiver instalado no computador, será usado a segunda opção */
+
+h2{
+	background-color: black;
+	color: darkred;
+	font-variant: small-caps;
+}
+
+a {
+	background-color: black;
+	color: darkcyan;
+	font-variant: small-caps;
+}
+
+p {
+	background-color: black;
+	font-family: Verdana, Calibri, Comic Sans MS;
+	font-size: 16px;
+	font-style: italic;
+	color: whitesmoke;
+	font-variant: small-caps;
+}
+
+#classified{
+	background-color: whitesmoke;
+}
+
+
+/* seleciona todos os elementos IMG da pagina html e define suas propriedades */
+/* Borda só vai aparecer se houver os 3 parâmetros principais: Width; Style; Color 
+	especificamente nessa ordem. */
+img{
+	border-width: 10px;
+	border-style: double;
+	color: darkred;
+	width: 300px;
+}
+
+
+
+/*
+	class="algo" define uma configuração para um parâmetro específico
+	no CSS .algo se refere ao tal parâmetro específico
+
+.gambiarra{
+	background-color: #000777;
+}
+
+/* id="algo" seleciona o elemento com o ID "algo"
+/* no CSS #algo se refere ao tal elemento específico
+
+#fabricio{
+	background-color: darkred;
+}
+*/

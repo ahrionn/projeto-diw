@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+		
+			<meta charset="utf-8">
+			<title> Formulários </title>
+			<link rel="stylesheet" type="text/css" href="css/styleform.css">
+		
+		</head>
+		
+		<body>
+			
+			<hr id="top">
+			<h1> Formulários </h1>
+			<hr>
+
+			<br>
+
+			<form name="formulario-basico" action="cadastro.html" method="get">
+				
+				<fieldset>
+					
+					<legend> Dados Pessoais: </legend>
+
+					<label for="idnome"> Nome Completo: </label>
+					<input type="text" name="name" id="idnome" autofocus>
+
+					<br><br>
+
+					<label for="senha"> Senha: </label>
+					<input type="password" name="senha" id="senha" required>
+
+				</fieldset>
+
+				<br>
+
+				<fieldset>
+					
+					<legend> Preferências: </legend>
+						
+						<hr>
+						<span> Qual seu doce preferido? </span> <br><br>
+					
+						<input type="radio" name="doce" value="doce1">
+						<label for="doce1"> Torta de Bolacha </label>
+						<br>
+						<input type="radio" name="doce" value="doce2">
+						<label for="doce2"> Ambrosia </label>
+						<br>
+						<input type="radio" name="doce" value="doce3">
+						<label for="doce3"> Torta de Limão	 </label>
+
+						<hr>
+
+						<span> Qual seu animal favorito? </span>
+						<br>
+						
+						<input type="checkbox" name="gato" value="true" id="gato">
+						<label for="gato"> Gato </label>
+						<br>
+						<input type="checkbox" name="cao" value="true" id="cao">
+						<label for="cao"> Cão </label>
+
+						<hr>
+
+						<span> Deixe seu comentário! </span>
+						<br><br>
+						<textarea cols="40" rows="5" maxlength="15"></textarea>
+
+						<hr>
+
+
+						<label> Qual sua fruta favorita? </label>
+						<select name="fruta" id="fruta">
+							<option value="uva"> Uva </option>
+							<option value="laranja"> Laranja </option>
+							<option value="maracuja"> Maracujá </option>
+						</select>
+
+						<br>
+						<hr>
+
+						<label for="cidade"> Selecione sua cidade: </label>
+						<select name="cidade" id="cidade">
+							
+							<optgroup label="Rio Grande do Sul">
+								<option value="poa"> Porto Alegre </option>
+								<option value="can"> Canoas </option>
+								<option value="gra"> Gramado </option>
+							</optgroup>
+
+							<optgroup label="Santa Catarina">
+								<option value="flp"> Florianópolis </option>
+								<option value="joi"> Joinville </option>
+								<option value="cha"> Chapecó </option>
+							</optgroup>
+
+						</select>
+
+				</fieldset>
+
+				<br><br>
+
+				<input id="botaoCadastrar" type="submit" name="botaoEnviar" value="Cadastrar">
+				<input type="reset" name="botaoReset" value="Apagar Tudo">
+
+				<!-- Passagem de dados ocultos no formulário -->
+				<input type="hidden" name="segredo" value="Eu sei de tudo!">
+
+				<br><br>
+
+				<!-- Botão de ação via linguagem de programação -->
+				<input type="button" name="btnGenérico" value="botãozito">
+
+				<br><br>
+
+				<input type="file" name="arquivo">
+
+				<br><br><br>
+
+				<input type="image" name="btnImagem" src="img/botao.jpg" style="width: 150px;">
+
+			</form>
+
+			<br><hr><br>
+
+			<!---------------------------------------------- FORMULÁRIO 2 ---------------------------------------------------->
+
+			<form name="formulario-avancado" action="pedido" method="GET">
+				
+				<label for="email"> E-mail: </label>
+				<input type="email" name="email" id="email" placeholder="exemplo@mail.com">
+
+				<br><br>
+
+				<label for="link"> Link do Facebook: </label>
+				<input type="url" name="site" id="link" placeholder="http://exemplo.com">
+
+				<br><br>
+
+				<label for="idade"> Idade: </label>
+				<input type="number" name="idade" id="idade" min="0" max="100" step="5">
+
+				<br><br>
+
+				<input type="range" name="nota" min="0" max="100" step="10" value="20">
+
+				<br><br>
+
+				<input type="search" name="buscar" placeholder="Buscar...">
+
+				<br><br>
+
+				<label for="cor"> Selecione sua cor favorita: </label>
+				<input type="color" name="cor" id="cor">
+
+				<br><br>
+
+				<label for="cel"> Número p/ Contato: </label>
+				<input type="tel" name="cel" placeholder="Digite seu telefone com DDD">
+
+				<br><br>
+
+				<label for="data "> Selecione sua data de nascimento: </label>
+				<input type="date" name="data-nasc" id="data">
+
+				<br><br>
+
+				<label for="hora"> Horário de chegada: </label>
+				<input type="time" name="hora" id="hora">
+
+				<br><br>
+
+				<input type="submit" name="botaoEnviar">
+
+			</form>
+
+		</body>
+	</html>

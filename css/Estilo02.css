@@ -1,0 +1,107 @@
+body{
+	background-color: black;
+}
+
+h1{
+	color: whitesmoke;	
+	font-variant: small-caps;
+	font-family: Constantia;
+	font-size: 100px;
+	font-style: oblique;
+	border-width: 10px;
+	border-style: double;
+	border-color: darkcyan;
+	text-align: center;
+	margin: 50px;
+}
+
+h2{
+	color: whitesmoke;
+	font-variant: small-caps;
+	font-size: 30px;
+	margin-left: 50px;
+}
+
+a{
+	color: darkcyan;
+	font-variant: small-caps;
+	font-size: 18px;
+	margin-left: 50px;
+}
+
+a:hover{
+	color: darkgoldenrod;
+}
+
+#imagem{
+	width: 700px;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+p{
+	color: whitesmoke;
+	font-size: 17px;
+	font-family: sans-serif;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+h3{
+	color: whitesmoke;
+	font-variant: small-caps;
+	font-size: 30px;
+	font-style: italic;
+	margin: 10px;
+	margin-right: 500px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: darkmagenta;
+	text-align: center;
+
+}
+
+h4{
+	color: whitesmoke;
+	font-variant: small-caps;
+	font-size: 20px;
+	margin: 7px;
+	text-decoration: underline;
+	text-decoration-color: darkmagenta;
+}
+
+#lista-não-ordenada{
+	color: whitesmoke;
+	font-size: 17px;
+	font-family: sans-serif;
+	margin: 12px;
+
+	list-style-type: circle;
+}
+
+/*
+#lista-não-ordenada li{
+	border: 2px solid darkmagenta;
+	margin: 5px;
+	margin-right: 540px;
+	
+	list-style-position: inside;
+}
+*/
+
+#lista-ordenada{
+	color: whitesmoke;
+	font-size: 17px;
+	font-family: sans-serif;
+	margin: 12px;
+
+	list-style-type: upper-roman;
+}
+
+#lista-definicao{
+	color: whitesmoke;
+	font-size: 17px;
+	font-family: sans-serif;
+	margin: 12px;
+}
