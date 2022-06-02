@@ -12,8 +12,12 @@
 			
 			<header>
 				
+				<!-- Linha de Código do ion-icon-->
+
+				<ion-icon id="balao" name="balloon-sharp"></ion-icon>
 				<h1>Título do Site</h1>
-				
+				<ion-icon id="balao" name="balloon-sharp"></ion-icon>
+
 				<nav>
 					<ul>
 						<li>
@@ -48,45 +52,53 @@
 				
 			</section>
 
-			<section id="noticias">
-				
-				<article>
+			<main>
 
-					<h2>Título 1</h2>
+				<section id="noticias">
+					
+					<article>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<h2>Título 1</h2>
 
-				</article>
-				
-				<article>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-					<h2>Título 2</h2>
+					</article>
+					
+					<article>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				
-				</article>
+						<h2>Título 2</h2>
 
-			</section>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					
+					</article>
 
-			<aside>
-				
-				<div>Conteúdo Adicional</div>
+				</section>
 
-				<div>Link Externo</div>
+				<aside>
+					
+					<div id="foto"></div>
 
-				<div>Banner de Publicidade</div>
+					<div>
+						<iframe id="video" src="https://www.youtube.com/embed/FOID_7h-aZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
 
-			</aside>
+					<div>
+						<iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.8635398014558!2d-51.22741598428249!3d-30.04077253806762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978fe42d8b1ed%3A0xae1c684c4a076aa8!2sTudo%20Pelo%20Social!5e0!3m2!1spt-BR!2sbr!4v1654127261771!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+
+				</aside>
+
+			</main>
 
 			<footer>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -94,5 +106,11 @@
 			</footer>
 			
 		</div>
+
+		<!-- Importação da biblioteca de ícones ion-icons -->
+
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 	</body>
 </html>

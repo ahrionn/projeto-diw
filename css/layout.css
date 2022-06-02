@@ -46,9 +46,16 @@ header{
 	text-align: center;
 }
 
+#balao{
+	/*Nesse caso, define o tamanho do ícone*/
+	font-size: 30px;
+	/*Nesse caso, define a cor do ícone*/
+	color: blueviolet;
+}
+
 header h1{
 	padding: 10px 0;
-
+	display: inline-block;
 }
 
 nav{
@@ -65,6 +72,7 @@ nav ul li{
 	/* 8px em cima e em baixo e 10px nas laterias (espaçamento interno) */
 	padding: 8px 10px;
 	margin-right: 10px;
+	margin-top: 4px;
 }
 
 nav ul li:hover,
@@ -85,7 +93,7 @@ nav ul li a:visited{
 /*---------------------------------*/
 
 #destaque{
-	height: 500px;
+	height: 470px;
 	background-color: #D7CBD7;
 }
 
@@ -105,6 +113,62 @@ nav ul li a:visited{
 	/*display: inline-block;*/
 	float: left;
 	margin-top: 25px;
+}
+
+
+/*----------------------------------*/
+/*------------ PRINCIPAL -----------*/
+/*----------------------------------*/
+
+main{
+	background-color: greenyellow;
+	height: 500px;
+}
+
+#noticias{
+	height: 100%;
+	width: 70%;
+	background-color: darkred;
+	float: left;
+}
+
+#noticias article{
+	background-color: coral;
+	height: 45%;
+	width: 95%;
+	/*Para centralizar um elemento a gente define uma margem para top/bottom 
+	do elemento e para as laterais right/left nós definimos como AUTO*/
+	margin: 15px auto;
+}
+
+aside{
+	height: 100%;
+	width: 30%;
+	background-color: darkmagenta;
+	float: left;
+}
+
+aside div{
+	background-color: lightblue;
+	color: black;
+	width: 90%;
+	height: 30%;
+	margin: 10px auto;
+}
+
+#foto{
+	background-image: url(../img/dog1.jpg);
+	background-size: cover;
+}
+
+#video{
+	width: 100%;
+	height: 100%;
+}
+
+#mapa{
+	width: 100%;
+	height: 100%;
 }
 
 /*---------------------------------*/
